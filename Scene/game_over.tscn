@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://b8c1y15a1sip7"]
 
 [ext_resource type="FontFile" uid="uid://b83dmvncdbhvw" path="res://Assets/Fonts/KnightWarrior-w16n8.otf" id="1_3aq60"]
-[ext_resource type="Script" path="res://game_over.gd" id="1_lyk4e"]
+[ext_resource type="Script" path="res://Scene/game_over.gd" id="1_lyk4e"]
 [ext_resource type="AudioStream" uid="uid://n8yq04vpuhj5" path="res://Assets/Audio/game music.mp3" id="3_8emw2"]
 
 [node name="GameOver" type="Control"]

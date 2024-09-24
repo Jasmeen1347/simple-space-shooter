@@ -36,7 +36,7 @@ func _on_meteor_collision() -> void:
 	health -= 1
 	get_tree().call_group('UI', 'set_health', health)
 	if(health <= 0):
-		get_tree().change_scene_to_file('res://game_over.tscn')
+		get_tree().change_scene_to_file('res://Scene/game_over.tscn')
 		
 	$Player.play_collsion_sound()
 	
